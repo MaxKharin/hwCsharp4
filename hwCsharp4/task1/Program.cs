@@ -10,7 +10,6 @@ int prompt(string message)
 }
 
 int numberA = prompt("Enter a number, please: ");
-
 int numberB = prompt("Enter a power, please: ");
 int result = 1;
 int i;
@@ -18,6 +17,5 @@ for (i = 1; i <= numberB; i++)
 {
     result = result * numberA;
 }
-
 Console.WriteLine($"The result is {result}");
 
