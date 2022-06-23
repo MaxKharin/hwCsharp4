@@ -18,4 +18,3 @@ for (i = 1; i <= numberB; i++)
     result = result * numberA;
 }
 Console.WriteLine($"The result is {result}");
-
