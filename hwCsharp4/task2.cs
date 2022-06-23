@@ -19,6 +19,7 @@ int digitSum(int number)
     }
     return result;
 }
+
 int number = prompt ("Enter a number, please: ");
 int result = digitSum(number);
 Console.WriteLine($"Result is {result}");
